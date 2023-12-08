@@ -1,0 +1,18 @@
+# Set the value to true if you want to enable the service
+# Default value: true
+commandlogguardian: true
+
+# Set the value to true if you want to track Console
+# Defualt value: false
+# Tracking console is kinda useless
+console: false
+
+# Protected commands that will not be exposed by the service
+protected-commands:
+- ban
+- kick
+
+# Protected players that will not be exposed by the service
+protected-players:
+- Alex
+- Steve
