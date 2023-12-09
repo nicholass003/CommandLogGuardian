@@ -1,6 +1,6 @@
 name: CommandLogGuardian
 api: 5.0.0
-version: 1.0.0
+version: 1.0.1
 main: nicholass003\commandlogguardian\CommandLogGuardian
 author: nicholass003
 src-namespace-prefix: nicholass003\commandlogguardian
