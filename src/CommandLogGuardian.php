@@ -90,17 +90,11 @@ class CommandLogGuardian extends PluginBase implements Listener{
     }
 
     private function getProtectedCommands() : array{
-        return $this->getConfig()->get("protected-commands", [
-            "ban",
-            "kick"
-        ]);
+        return $this->getConfig()->get("protected-commands");
     }
 
     private function getProtectedPlayers() : array{
-        return $this->getConfig()->get("protected-players", [
-            "Alex",
-            "Steve"
-        ]);
+        return $this->getConfig()->get("protected-players");
     }
 
     public function onCommandExecuted(CommandEvent $event) : void{
